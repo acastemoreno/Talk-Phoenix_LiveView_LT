@@ -7,7 +7,7 @@ defmodule DemoWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_demo_key",
-    signing_salt: "DAL8Zedu"
+    signing_salt: "KX10m5CW"
   ]
 
   socket "/socket", DemoWeb.UserSocket,

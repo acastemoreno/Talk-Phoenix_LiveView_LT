@@ -13,10 +13,10 @@ config :demo,
 # Configures the endpoint
 config :demo, DemoWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "XHYHhe8l8gzwJQRC0rq+A7rackkNFcUVmLCRdJVOwGpuTNG5r00eYwOJujhr8G4R",
+  secret_key_base: "6zU28NpmPsZfrL7npL7Ejv9U14EoIK2UBkukKmokN07sZxh6IUdwlpvkQGJRFVgX",
   render_errors: [view: DemoWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Demo.PubSub,
-  live_view: [signing_salt: "muBHM5wX"]
+  live_view: [signing_salt: "iDS35Ud4"]
 
 # Configures Elixir's Logger
 config :logger, :console,
