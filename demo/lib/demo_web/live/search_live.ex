@@ -2,6 +2,7 @@ defmodule DemoWeb.SearchLive do
   use DemoWeb, :live_view
 
   alias Demo.Stores
+  alias DemoWeb.SearchView
 
   def mount(_params, _session, socket) do
     socket =
@@ -13,6 +14,7 @@ defmodule DemoWeb.SearchLive do
     {:ok, socket}
   end
 
+  def render(assigns), do: SearchView.render("search_live.html", assigns)
   # def render(assigns) do
   #   ~L"""
   #   <h1>Find a Store</h1>
