@@ -17,6 +17,7 @@ defmodule DemoWeb.CounterLive do
     {:ok, assign(socket, count: initial)}
   end
 
+  @impl true
   def mount(_param, _session, socket) do
     {:ok, assign(socket, count: 100)}
   end
