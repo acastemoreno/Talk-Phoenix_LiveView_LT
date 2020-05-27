@@ -4,6 +4,7 @@ defmodule DemoWeb.SearchLive do
   alias Demo.Stores
   alias DemoWeb.SearchView
 
+  @impl true
   def mount(_params, _session, socket) do
     socket =
       assign(socket,
@@ -14,6 +15,7 @@ defmodule DemoWeb.SearchLive do
     {:ok, socket}
   end
 
+  @impl true
   def render(assigns), do: SearchView.render("search_live.html", assigns)
   # def render(assigns) do
   #   ~L"""
@@ -71,6 +73,7 @@ defmodule DemoWeb.SearchLive do
   #   """
   # end
 
+  @impl true
   def handle_event("zip-search", %{"zip" => zip}, socket) do
     send(self(), {:run_zip_search, zip})
 
@@ -83,6 +86,7 @@ defmodule DemoWeb.SearchLive do
     {:noreply, socket}
   end
 
+  @impl true
   def handle_info({:run_zip_search, zip}, socket) do
 
     case Stores.search_by_zip(zip) do
