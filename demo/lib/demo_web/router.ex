@@ -19,6 +19,7 @@ defmodule DemoWeb.Router do
 
     live "/", PageLive, :index
     live "/search", SearchLive
+    live "/counter", CounterLive
   end
 
   # Other scopes may use custom stacks.
