@@ -1,0 +1,102 @@
+* Slide Options                           :noexport:
+# ======= Appear in cover-slide ====================
+#+TITLE: Phoenix LiveView
+#+SUBTITLE: Real Time Apps. No need to write Javascript
+#+COMPANY: Codeable
+#+AUTHOR: Albert Castellano Moreno
+#+EMAIL: acastemoreno@gmail.com
+
+# ======= Appear in thank-you-slide ================
+#+GITHUB: http://github.com/acastemoreno
+
+# ======= Appear under each slide ==================
+#+FAVICON: images/phoenix.png
+#+ICON: images/phoenix.png
+#+HASHTAG: #Codeable #liveview #phoenixframework #phoenix
+
+# ======= Google Analytics =========================
+#+ANALYTICS: ----
+
+# ======= Org settings =========================
+#+EXCLUDE_TAGS: noexport
+#+OPTIONS: toc:nil num:nil ^:nil
+#+LANGUAGE: es
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="theme/css/custom.css" />
+
+* 
+  :PROPERTIES:
+  :FILL:     images/rainbown.gif
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+* Problema
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/js_insane.png
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+#+ATTR_HTML: :class note
+#+BEGIN_QUOTE
+solo para nota[fn:1]
+#+END_QUOTE
+
+* 
+  :PROPERTIES:
+  :FILL:     images/ajax.png
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/channels.png
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+
+* LiveView Aproach
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* 
+  :PROPERTIES:
+  :FILL:     images/liveview.png
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+  
+* 
+  :PROPERTIES:
+  :FILL:     images/liveview2.png
+  :TITLE:    white
+  :SLIDE:    white contain-image
+  :END:
+  
+* Demo
+  :PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+* Thank You ʕ•ᴥ•ʔ
+:PROPERTIES:
+:SLIDE: thank-you-slide segue
+:ASIDE: right
+:ARTICLE: flexbox vleft auto-fadein
+:END:
+
+* Footnotes
+[fn:1] [[https://www.youtube.com/watch?v=Z2DU0qLfPIY&feature=youtu.be&t=1080][ElixirConf 2018 - Keynote - Chris McCord]]
